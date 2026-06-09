@@ -262,6 +262,8 @@ nav {
 
 .service-icon { font-size: 1.2rem; color: var(--rose); }
 .price { font-family: var(--font-serif); font-size: 2rem; color: var(--deep); margin: 0; }
+.price-note { font-family: var(--font-sans); font-size: 0.9rem; color: var(--mid); font-weight: 300; }
+.service-card.featured .price-note { color: var(--blush); }
 
 /* ===== TESTIMONIALS ===== */
 .testimonials { background: var(--white); }
