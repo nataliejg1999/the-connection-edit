@@ -149,9 +149,11 @@ nav {
 }
 
 .nav-logo-img {
-  width: 28px;
-  height: 34px;
+  width: 24px;
+  height: 28px;
   flex-shrink: 0;
+  display: block;
+  align-self: center;
 }
 
 .nav-links {
