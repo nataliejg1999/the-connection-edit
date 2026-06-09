@@ -143,6 +143,15 @@ nav {
   color: var(--deep);
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.nav-logo-img {
+  width: 28px;
+  height: 34px;
+  flex-shrink: 0;
 }
 
 .nav-links {

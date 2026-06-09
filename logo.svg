@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 54" fill="none">
+  <!-- Stem -->
+  <path d="M22 52 Q20 46 22 38" stroke="#A0756B" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- Leaf -->
+  <path d="M22 46 Q15 43 16 37 Q21 40 22 46Z" fill="#A0756B" opacity="0.85"/>
+  <!-- Outer petals -->
+  <path d="M22 36 Q11 32 10 21 Q17 26 22 36Z" fill="#C2706A" opacity="0.65"/>
+  <path d="M22 36 Q33 32 34 21 Q27 26 22 36Z" fill="#C2706A" opacity="0.65"/>
+  <path d="M22 36 Q10 30 11 18 Q18 24 22 36Z" fill="#BE6A64" opacity="0.72"/>
+  <path d="M22 36 Q34 30 33 18 Q26 24 22 36Z" fill="#BE6A64" opacity="0.72"/>
+  <path d="M22 36 Q14 40 8 34 Q12 27 22 36Z" fill="#B86460" opacity="0.78"/>
+  <path d="M22 36 Q30 40 36 34 Q32 27 22 36Z" fill="#B86460" opacity="0.78"/>
+  <!-- Inner petals -->
+  <path d="M22 31 Q15 28 15 20 Q19 25 22 31Z" fill="#D08878"/>
+  <path d="M22 31 Q29 28 29 20 Q25 25 22 31Z" fill="#D08878"/>
+  <path d="M22 31 Q15 34 12 28 Q16 25 22 31Z" fill="#C87E74"/>
+  <path d="M22 31 Q29 34 32 28 Q28 25 22 31Z" fill="#C87E74"/>
+  <!-- Center bud -->
+  <ellipse cx="22" cy="22" rx="4.5" ry="5.5" fill="#C2706A"/>
+  <ellipse cx="22" cy="21" rx="2.8" ry="3.8" fill="#D4887A"/>
+  <ellipse cx="22" cy="20" rx="1.5" ry="2.2" fill="#EAA898"/>
+</svg>
