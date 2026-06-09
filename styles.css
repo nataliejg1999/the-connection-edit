@@ -1,3 +1,22 @@
+/* ===== ANNOUNCEMENT BAR ===== */
+.announcement-bar {
+  background: var(--deep);
+  color: var(--cream);
+  text-align: center;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+}
+
+.announcement-bar p { color: var(--cream); margin: 0; }
+.announcement-bar a { color: var(--blush); text-decoration: underline; }
+.announcement-bar a:hover { color: var(--white); }
+
 /* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -107,7 +126,7 @@ section { padding: 7rem 0; }
 /* ===== NAV ===== */
 nav {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 2.5rem; left: 0; right: 0;
   z-index: 100;
   display: flex;
   align-items: center;
@@ -159,7 +178,7 @@ nav {
   display: flex;
   align-items: center;
   background: var(--cream);
-  padding: 10rem 3rem 6rem;
+  padding: 13rem 3rem 6rem;
 }
 
 .hero-content { max-width: 680px; margin: 0 auto; }
@@ -264,6 +283,13 @@ nav {
 .price { font-family: var(--font-serif); font-size: 2rem; color: var(--deep); margin: 0; }
 .price-note { font-family: var(--font-sans); font-size: 0.9rem; color: var(--mid); font-weight: 300; }
 .service-card.featured .price-note { color: var(--blush); }
+
+.original-price { font-size: 0.85rem; color: var(--mid); margin: -0.5rem 0 0.5rem; }
+.service-card.featured .original-price { color: var(--blush); opacity: 0.8; }
+
+.founding-badge {
+  background: var(--rose) !important;
+}
 
 /* ===== TESTIMONIALS ===== */
 .testimonials { background: var(--white); }

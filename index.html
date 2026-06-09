@@ -9,6 +9,11 @@
 </head>
 <body>
 
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <p>✦ Now accepting founding clients — only 5 spots available at a special launch rate. <a href="#contact">Apply here →</a></p>
+  </div>
+
   <!-- NAV -->
   <nav>
     <a href="#" class="nav-logo">The Connection Edit</a>
@@ -55,10 +60,12 @@
       <h2 class="center">How I can help you</h2>
       <div class="services-grid">
 
-        <div class="service-card">
+        <div class="service-card founding">
+          <div class="service-badge founding-badge">Founding Rate</div>
           <div class="service-icon">✦</div>
           <h3>Discovery Session</h3>
-          <p class="price">$125 <span class="price-note">one-time</span></p>
+          <p class="price">$75 <span class="price-note">one-time</span></p>
+          <p class="original-price">Regular price: <s>$125</s></p>
           <p>A focused 60-minute session to uncover your dating patterns, define what you're truly looking for, and map out your next steps.</p>
           <ul>
             <li>60-minute 1:1 call</li>
@@ -68,11 +75,12 @@
           <a href="#contact" class="btn-outline">Book Now</a>
         </div>
 
-        <div class="service-card featured">
-          <div class="service-badge">Most Popular</div>
+        <div class="service-card featured founding">
+          <div class="service-badge">Founding Rate — 5 Spots Only</div>
           <div class="service-icon">✦✦</div>
           <h3>The Edit Package</h3>
-          <p class="price">$325 <span class="price-note">/month</span></p>
+          <p class="price">$199 <span class="price-note">/month</span></p>
+          <p class="original-price">Regular price: <s>$325/month</s></p>
           <p>Ongoing 1:1 coaching to transform your approach to dating — from profile to first date and beyond. Stay as long as you need.</p>
           <ul>
             <li>4 x 60-minute sessions/month</li>
@@ -81,7 +89,7 @@
             <li>WhatsApp support</li>
             <li>Cancel anytime</li>
           </ul>
-          <a href="#contact" class="btn-primary">Get Started</a>
+          <a href="#contact" class="btn-primary">Claim Your Spot</a>
         </div>
 
         <div class="service-card">
@@ -160,8 +168,8 @@
         </div>
         <select name="service">
           <option value="" disabled selected>Which service are you interested in?</option>
-          <option value="discovery">Discovery Session — $125 one-time</option>
-          <option value="edit">The Edit Package — $325/month</option>
+          <option value="discovery">Discovery Session — $75 (Founding Rate)</option>
+          <option value="edit">The Edit Package — $199/month (Founding Rate)</option>
           <option value="vip">VIP Intensive — $750/month</option>
           <option value="unsure">Not sure yet</option>
         </select>
