@@ -199,6 +199,15 @@ nav {
 
 .about-text p { max-width: 460px; }
 
+.about-name {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--rose);
+  letter-spacing: 0.05em;
+  margin-bottom: 1.2rem;
+}
+
 /* ===== SERVICES ===== */
 .services { background: var(--cream); }
 .services h2 { margin-bottom: 3.5rem; }
