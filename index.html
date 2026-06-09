@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Connection Edit</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">The Connection Edit</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Book a Call</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Dating Consultancy</p>
+      <h1>Find love with<br/>intention.</h1>
+      <p class="hero-sub">Personalised guidance to help you attract the right relationship — and feel confident every step of the way.</p>
+      <a href="#contact" class="btn-primary">Work With Me</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container two-col">
+      <div class="about-image">
+        <div class="image-placeholder">Your Photo Here</div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2>Your story about finding love starts here.</h2>
+        <p>This is where your personal story goes — your background, what led you to dating consultancy, and why you're passionate about helping people find meaningful connections.</p>
+        <p>Share what makes your approach unique and why clients trust you to guide them through their dating journey.</p>
+        <a href="#contact" class="btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-label center">Services & Pricing</p>
+      <h2 class="center">How I can help you</h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Discovery Session</h3>
+          <p class="price">£97</p>
+          <p>A focused 60-minute session to uncover your dating patterns, define what you're truly looking for, and map out your next steps.</p>
+          <ul>
+            <li>60-minute 1:1 call</li>
+            <li>Dating audit & feedback</li>
+            <li>Personalised action plan</li>
+          </ul>
+          <a href="#contact" class="btn-outline">Book Now</a>
+        </div>
+
+        <div class="service-card featured">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon">✦✦</div>
+          <h3>The Edit Package</h3>
+          <p class="price">£497</p>
+          <p>A 6-week 1:1 programme to transform your approach to dating — from profile to first date and beyond.</p>
+          <ul>
+            <li>6 x 60-minute sessions</li>
+            <li>Profile & photo review</li>
+            <li>Date coaching & debrief</li>
+            <li>WhatsApp support</li>
+          </ul>
+          <a href="#contact" class="btn-primary">Book Now</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">✦✦✦</div>
+          <h3>VIP Intensive</h3>
+          <p class="price">£1,200</p>
+          <p>A fully bespoke, high-touch experience for those who want complete transformation and hands-on support.</p>
+          <ul>
+            <li>3-month 1:1 programme</li>
+            <li>Unlimited messaging</li>
+            <li>Full profile management</li>
+            <li>Priority booking</li>
+          </ul>
+          <a href="#contact" class="btn-outline">Book Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <p class="section-label center">Testimonials</p>
+      <h2 class="center">What my clients say</h2>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <p>"Working with The Connection Edit completely changed how I show up in dating. I went from dreading the apps to genuinely enjoying the process — and I met my partner 3 months in."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div>
+              <strong>Sophie M.</strong>
+              <span>London</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>"I was so stuck in my head before we worked together. The coaching helped me get clear on what I actually wanted and gave me the confidence to go for it. Couldn't recommend more."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">J</div>
+            <div>
+              <strong>James T.</strong>
+              <span>Manchester</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>"The profile review alone was worth every penny. I tripled my matches within a week and started having real, meaningful conversations for the first time."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <strong>Amara K.</strong>
+              <span>Birmingham</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <p class="section-label center">Get in Touch</p>
+      <h2 class="center">Ready to find your person?</h2>
+      <p class="contact-sub center">Fill in the form below and I'll be in touch within 48 hours to arrange your free discovery call.</p>
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <select name="service">
+          <option value="" disabled selected>Which service are you interested in?</option>
+          <option value="discovery">Discovery Session — £97</option>
+          <option value="edit">The Edit Package — £497</option>
+          <option value="vip">VIP Intensive — £1,200</option>
+          <option value="unsure">Not sure yet</option>
+        </select>
+        <textarea name="message" rows="5" placeholder="Tell me a little about where you're at with dating and what you're hoping to achieve..."></textarea>
+        <button type="submit" class="btn-primary full-width">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 The Connection Edit. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
