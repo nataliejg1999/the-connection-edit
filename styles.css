@@ -313,6 +313,22 @@ nav {
 .testimonial-author strong { display: block; color: var(--deep); font-size: 0.9rem; }
 .testimonial-author span { font-size: 0.8rem; color: var(--mid); }
 
+/* ===== BOOKING ===== */
+.booking { background: var(--white); }
+
+.booking-sub {
+  font-size: 1rem;
+  color: var(--mid);
+  max-width: 500px;
+  margin: 0 auto 3rem;
+}
+
+.calendly-inline-widget {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+}
+
 /* ===== CONTACT ===== */
 .contact { background: var(--cream); }
 
