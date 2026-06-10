@@ -306,20 +306,15 @@ nav {
 }
 
 /* ===== HOT TAKE CARD ===== */
+.two-col-services {
+  grid-template-columns: 1fr 1fr !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .hot-take {
   background: var(--deep) !important;
   border: none !important;
-  padding: 2.5rem 3rem !important;
-  margin-bottom: 2rem;
-  flex-direction: row !important;
-}
-
-.hot-take-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3rem;
-  width: 100%;
 }
 
 .hot-take h3,
@@ -329,18 +324,10 @@ nav {
 .hot-take .service-icon { color: var(--blush) !important; }
 .hot-take .price { color: var(--cream) !important; }
 .hot-take .price-note { color: var(--blush) !important; }
-
-.hot-take-details {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  flex-shrink: 0;
-  min-width: 220px;
-}
+.hot-take .card-micro { color: var(--blush) !important; opacity: 0.8; }
 
 @media (max-width: 700px) {
-  .hot-take-inner { flex-direction: column; gap: 1.5rem; }
-  .hot-take { padding: 2rem !important; }
+  .two-col-services { grid-template-columns: 1fr !important; }
 }
 
 /* ===== SERVICES ===== */
