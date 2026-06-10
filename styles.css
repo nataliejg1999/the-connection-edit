@@ -479,6 +479,63 @@ nav {
   .events-grid { grid-template-columns: 1fr; }
 }
 
+/* ===== SUBSTACK ===== */
+.substack-section { background: var(--cream); }
+
+.substack-sub {
+  font-size: 1rem;
+  color: var(--mid);
+  max-width: 500px;
+  margin: 0 auto 3rem;
+}
+
+.substack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.substack-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  transition: box-shadow 0.3s;
+}
+
+.substack-card:hover { box-shadow: 0 8px 40px rgba(0,0,0,0.08); }
+
+.substack-category {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rose);
+  margin: 0;
+}
+
+.substack-card h3 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.substack-card p {
+  font-size: 0.9rem;
+  color: var(--mid);
+  flex: 1;
+  margin: 0;
+}
+
+.substack-cta { text-align: center; }
+
+@media (max-width: 900px) {
+  .substack-grid { grid-template-columns: 1fr; }
+}
+
 /* ===== TESTIMONIALS ===== */
 .testimonials { background: var(--white); }
 .testimonials h2 { margin-bottom: 3.5rem; }
