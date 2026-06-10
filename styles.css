@@ -296,12 +296,20 @@ nav {
 
 .about-text p { max-width: 460px; }
 
+.about-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  color: var(--deep);
+  margin-bottom: 0.5rem;
+}
+
 .about-name {
   font-family: var(--font-serif);
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  color: var(--deep);
-  letter-spacing: 0.02em;
+  color: var(--rose);
+  letter-spacing: 0.08em;
   margin-bottom: 1.2rem;
 }
 
