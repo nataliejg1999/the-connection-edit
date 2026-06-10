@@ -352,6 +352,10 @@ nav {
   transition: box-shadow 0.3s;
 }
 
+.service-card > a {
+  margin-top: auto;
+}
+
 .service-card:hover { box-shadow: 0 8px 40px rgba(0,0,0,0.08); }
 
 .service-card.featured {
