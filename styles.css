@@ -302,6 +302,14 @@ nav {
   border-radius: 2px;
 }
 
+.about-hook {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--rose);
+  margin-bottom: 1rem;
+}
+
 .about-text p { max-width: 460px; }
 
 .about-heading {
