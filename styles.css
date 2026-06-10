@@ -305,6 +305,44 @@ nav {
   margin-bottom: 1.2rem;
 }
 
+/* ===== HOT TAKE CARD ===== */
+.hot-take {
+  background: var(--deep) !important;
+  border: none !important;
+  padding: 2.5rem 3rem !important;
+  margin-bottom: 2rem;
+  flex-direction: row !important;
+}
+
+.hot-take-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.hot-take h3,
+.hot-take p,
+.hot-take li { color: var(--cream) !important; }
+
+.hot-take .service-icon { color: var(--blush) !important; }
+.hot-take .price { color: var(--cream) !important; }
+.hot-take .price-note { color: var(--blush) !important; }
+
+.hot-take-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex-shrink: 0;
+  min-width: 220px;
+}
+
+@media (max-width: 700px) {
+  .hot-take-inner { flex-direction: column; gap: 1.5rem; }
+  .hot-take { padding: 2rem !important; }
+}
+
 /* ===== SERVICES ===== */
 .services { background: var(--cream); }
 .services h2 { margin-bottom: 3.5rem; }
